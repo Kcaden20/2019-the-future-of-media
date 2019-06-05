@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+
+/*     Custom Fonts */
+    @font-face {
+font-family: "NB International Light";
+src: url("assets/fonts/NB-International/Light/NB%20International%20Pro%20Light.eot");
+src: url("assets/fonts/NB-International/Light/NB%20International%20Pro%20Light.woff") format("woff"),
+url("assets/fonts/NB-International/Light/NB%20International%20Pro%20Light.ttf") format("truetype"),
+url("assets/fonts/NB-International/Light/NB%20International%20Pro%20Light.svg") format("svg");
+}
+
+    @font-face {
+font-family: "NB International Bold";
+src: url("assets/fonts/NB-International/Bold/NB%20International%20Pro%20Bold.eot");
+src: url("assets/fonts/NB-International/Bold/NB%20International%20Pro%20Bold.woff") format("woff"),
+url("assets/fonts/NB-International/Bold/NB%20International%20Pro%20Bold.ttf") format("truetype"),
+url("assets/fonts/NB-International/Bold/NB%20International%20Pro%20Bold.svg") format("svg");
+}
+
+    @font-face {
+font-family: "NB International Regular";
+src: url("assets/fonts/NB-International/Regular/NB%20International%20Pro%20Regular.eot");
+src: url("aassets/fonts/NB-International/Regular/NB%20International%20Pro%20Regular.woff") format("woff"),
+url("assets/fonts/NB-International/Regular/NB%20International%20Pro%20Regular.ttf") format("truetype"),
+url("assets/fonts/NB-International/Regular/NB%20International%20Pro%20Regular.svg") format("svg");
+}
+
+/* Elements */
+  header {
+    height: 120px;
+    background-color: #1B3D51;
+
+  }
+  body {
+    margin: 0px;
+    color: #1B3D51;
+
+
+  }
+  main {
+    padding: 32px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  h1 {
+      font-family: "NB International Light";
+      font-size: 36px;
+      line-height: 44pt;
+    }
+
+    p{
+    font-family: "NB International Regular";
+    font-size: 16px;
+    text-transform: uppercase;
+    }
+
+  hr {
+  border: 1px solid #1B3D51;
+  }
+
+  footer {
+    margin: 0 auto;
+    padding-top: 16px;
+  }
+  footer p {
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+
+  footer img {
+    display: block;
+    width: 68pt;
+    height: 50pt;
+    margin: 0 auto;
+
+  }
+
+
+
+/*   Custom Code */
+  .h-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 42px 32px;
+
+  }
+
+    .h-content h3 {
+      font-family: "NB International Bold";
+      font-size: 24px;
+      line-height: 24pt;
+      margin: 0px;
+      color: white;
+      width: 137px;
+      display: inline-block;
+    }
+
+    .h-content img {
+      width: 190px;
+      float: right;
+
+    }
+
+    .audio {
+      height: 507px;
+    }
+
+    .sign-up {
+
+      padding-top: 20px;
+    }
+
+    .simple-subscription-form {
+          height: 73px;
+
+    }
+
+
+    form p {
+      width: 50%;
+      display: inline-block;
+      margin-top: 0px;
+    }
+
+    .input-group {
+      float: right;
+
+    }
+    input[type=email], input[type=password] {
+  display: inline-block;
+  height: 40px;
+  width: 240px;
+  border: none;
+  background: #E3F3F8;
+  font-family: "NB International Light";
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 0px;
+
+}
+
+.button {
+  width: 86px;
+  height: 40px;
+  background-color: #1B3D51;
+  color: #E3F3F8;
+  font-family: "NB International Light";
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+
+}
+
+  </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="h-content">
+        <h3>The Future of Media</h3>
+        <img src="assets/img/LOGO/axios.svg" alt="axios" >
+
+      </div>
+    </header>
+    <main>
+      <div><h1>Axios Media Trends Editor, Sara Fisher, unpacking the key stories shaping the media landscape and why it matters.<h1>
+        </div>
+      <hr>
+      <div class="audio">
+        <audio controls>
+  <source src="assets/audio/audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+      </div>
+      <hr>
+      <div class="sign-up">
+      <div class="simple-subscription-form">
+  <form>
+    <p>Sign up for Axios Media Trends</p>
+    <div class="input-group">
+      <span class="input-group-label">
+        <i class="fa fa-envelope"></i>
+      </span>
+      <input class="input-group-field" type="email" placeholder="Your Email Here" required>
+      <button class="button">Sign up</button>
+  </form>
+</div>
+      </div>
+      <hr>
+      <footer>
+        <p>Presented By</p>
+        <img src="assets/img/LOGO/sjr.svg" alt="sjr" >
+      </footer>
+    </main>
+  </body>
+</html>
